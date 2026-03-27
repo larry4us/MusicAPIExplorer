@@ -1,4 +1,4 @@
-# 🎵 Music API Explorer (iTunes & Spotify)
+# Music API Explorer (iTunes & Spotify)
 
 Este projeto é um laboratório de estudos focado em integração de APIs musicais. O aplicativo explora a API pública do iTunes para busca e prévia de áudio, e integra-se com o ecossistema do Spotify (Web API e App Remote) para controle de reprodução e gerenciamento de playlists.
 
@@ -6,16 +6,16 @@ O objetivo principal foi aprofundar conhecimentos em **URLSession**, arquitetura
 
 -----
 
-## 📱 Funcionalidades
+## Funcionalidades
 
-### 🎧 Integração iTunes (Pública)
+### Integração iTunes (Pública)
 
   * **Busca de Músicas:** Pesquisa em tempo real usando a iTunes Search API.
   * **Paginação:** Paginação básica da quantidade de dados buscada pela API durante a pesquisa em tempo real.
   * **Prévia de Áudio:** Reprodução de trechos de 30s utilizando `AVPlayer`.
   * **Interface Reativa:** Feedback visual de carregamento e tratamento de erros.
 
-### 🟢 Integração Spotify (Autenticada)
+### Integração Spotify (Autenticada)
 
   * **Spotify App Remote:** Conexão com o app nativo do Spotify instalado no dispositivo para visualizar o *Player State* (música atual, capa, play/pause).
   * **Controle de Reprodução:** Comandos de Play/Pause via `SpotifyiOS` SDK.
@@ -26,7 +26,7 @@ O objetivo principal foi aprofundar conhecimentos em **URLSession**, arquitetura
 
 -----
 
-## 🛠 Tech Stack & Arquitetura
+## Tech Stack & Arquitetura
 
 O projeto foi desenvolvido 100% em Swift, priorizando abordagens modernas, mas mantendo interoperabilidade quando necessário.
 
